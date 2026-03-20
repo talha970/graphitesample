@@ -55,6 +55,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Button(onClick = { clickCount = 0 }) {
             Text("Reset")
         }
+        Button(onClick = { clickCount = 0 }) {
+            Text("3rd button")
+        }
     }
 }
 
